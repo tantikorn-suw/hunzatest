@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunza Testing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg p-1 overflow-hidden">
+        <div class="container-fluid">
+            <button onclick="openNav()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">HOME</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">PROJECT</a>
+                <a href="#">GALLERY</a>
+                <a href="filemanage.php">FILEMANAGE</a>
+              </div>
+            <div class="collapse navbar-collapse justify-content-around" id="">
+                <a href="index.html" class="navbar-brand d-block d-lg-block" >
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/images/LOGO.png" height="65" />
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link   whiteanimbtn" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item"> 
+                      <a class="nav-link  whiteanimbtn" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link  whiteanimbtn" href="#">PROJECT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link whiteanimbtn" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  whiteanimbtn" href="filemanage.php">FILEMANAGE</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleControls" class="carousel-fade z-0 carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000" >
+            <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/slider/sl1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/slider/sl2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/slider/sl3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+    </div>
+    <div class="servicesection d-flex flex-wrap">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 service overflow-hidden">
+                <div class="serviceimg">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/welcon/wc1.jpg" alt="">
+                </div>
+                <div class="service-text">
+                    <div class="icon-service">
+                        <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/ico/ico1.png" height="" alt="">
+                    </div>
+                    <div class="service-text2">
+                        <h4 class="text-white">Best Construction Service</h4>
+                        <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 service overflow-hidden">
+                <div class="serviceimg">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/welcon/wc2.jpg" alt="">
+                </div>
+                <div class="service-text">
+                    <div class="icon-service">
+                        <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/ico/ico2.png" height="" alt="">
+                    </div>
+                    <div class="service-text2">
+                        <h4 class="text-white">Best Construction Service</h4>
+                        <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 service overflow-hidden">
+                <div class="serviceimg">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/welcon/wc3.jpg" alt="">
+                </div>
+                <div class="service-text">
+                    <div class="icon-service">
+                        <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/ico/ico3.png" height="" alt="">
+                    </div>
+                    <div class="service-text2">
+                        <h4 class="text-white">Best Construction Service</h4>
+                        <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 service overflow-hidden">
+                <div class="serviceimg">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/welcon/wc4.jpg" alt="">
+                </div>
+                <div class="service-text">
+                    <div class="icon-service">
+                        <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/ico/ico4.png" height="%" alt="">
+                    </div>
+                    <div class="service-text2">
+                        <h4 class="text-white">Best Construction Service</h4>
+                        <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="container-fluid introduction d-flex flex-wrap-reverse pt-2 pb-2">
+        <div class="col-xl-6 col-md-12 leftintroduction pb-2 ">
+            <p class="text-white">WHERE CAN WE HELP YOU</p>
+            <h1 class="text-white">WEL CONSTRUCTION</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto praesentium, molestiae eligendi labore consequatur obcaecati libero neque, vel tempore mollitia, nemo ipsam ratione! Natus quis accusamus ut illum quibusdam possimus.</p>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto praesentium, molestiae eligendi labore consequatur obcaecati libero neque, vel tempore mollitia, nemo ipsam ratione! Natus quis accusamus ut illum quibusdam possimus.</p>
+            <div class="text-center pt-5">
+                <a class="border text-decoration-none border-white p-2 px-4 whiteanimbtn" href="">ABOUT US</a>
+            </div>
+        </div>
+        <div class="col-xl-6 col-md-12 rightintroduction pb-2">
+            <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/welcon/wc5.jpg" alt="">
+        </div>
+    </div>
+    <div class="container-fluid parallax cerbg d-flex">
+        <div class="cer-section border-white border container align-self-center d-flex  ">
+            <div class="cer-icon">
+                <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/ico/ico5.png" alt="">
+            </div>
+            <div class="certext px-4">
+                <h1 class="fw-bold">Certificate Company</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+    <div class="project-section pt-5 parallax text-center">
+        <div class="container">
+            <div class="project-header pt-5">
+                <h1 class="text-white">OUR PROJECTS</h1>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-md-12 px-2 py-2">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/project/p1.jpg" alt="">
+                </div>
+                <div class="col-xl-6 col-md-12 px-2 py-2">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/project/p2.jpg" alt="">
+                </div>
+                <div class="col-xl-6 col-md-12 px-2 py-2">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/project/p3.jpg" alt="">
+                </div>
+                <div class="col-xl-6 col-md-12 px-2 py-2">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/project/p4.jpg" alt="">
+                </div>
+                <div class="col-xl-6 col-md-12 px-2 py-2">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/project/p5.jpg" alt="">
+                </div>
+                <div class="col-xl-6 col-md-12 px-2 py-2">
+                    <img class="img-fluid" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/project/p6.jpg" alt="">
+                </div>
+                <div class="text-center pt-4">
+                    <a class="border text-decoration-none border-white p-2 px-4 whiteanimbtn" href="">MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="client-section pt-2 pb-5 text-center bg-light overflow-hidden">
+        <div class="container">
+            <div class="client-header pt-5 pb-3">
+                <h1 class="text-black fw-bold">OUR CLIENTS</h1>
+            </div>
+            <div class="autoplay pb-5">
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c1.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c2.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c3.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c4.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c5.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c6.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c7.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c8.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c1.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c2.png"alt="" />
+                </div>
+                <div class="item">
+                    <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/clients/c3.png"alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <div class="container text-white pt-5 pb-2">
+            <img src="https://www.soeasyweb.com/websitetemplate/welconstruction/images/LOGO.png" height="65" />
+            <div class="container footer-text pt-5">
+                <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece</span>
+                <p>of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="container social-icon pb-5 border-bottom border-dark">
+                <img class="px-1" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/social/line.png" width="40" alt="">
+                <img class="px-1" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/social/facebook.png" width="40" alt="">
+                <img class="px-1" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/social/map.png" width="40" alt="">
+                <img class="px-1" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/social/youtube.png" width="40" alt="">
+                <img class="px-1" src="https://www.soeasyweb.com/websitetemplate/welconstruction/upload/social/mail.png" width="40" alt="">
+            </div>
+            <div class="copyrighttxt pt-3">
+                <p>so-easy | Website © Hunza Co., Ltd. All Rights Reserved. Since 2022</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    $('.autoplay').slick({
+  dots: false,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  slidesToShow: 10,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+    <script>
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+</body>
+</html>

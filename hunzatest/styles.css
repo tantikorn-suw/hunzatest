@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    transition: margin-left .5s;
+}
+.navbar{
+    background-color: #464649;
+}
+.nav-item{
+    margin-right: 2rem ;
+    font-size: 16px;
+}
+.navbar-brand {
+    margin-left: 5rem;
+}
+.parallax {
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.detailbox{
+    position: relative;
+    background-color: white;
+    padding: 30px;
+    outline: 7px solid rgb(255 255 255 / 40%);
+}
+.detailbox h1 {
+    color: #464649;
+}
+.service{
+    position: relative;
+    padding: 0;
+}
+.service-text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(70 70 73 / 75%);
+    padding: 20px;
+    opacity: 1;
+}
+.service-text2{
+    font-size: 14px;
+    position: absolute;
+    top: 15%;
+    padding: 15px 0px 0px 110px;
+}
+.servicesection{
+    display: flex;
+}
+.introduction{
+    background-color: #464649;
+}
+.leftintroduction{
+    margin-top: 15%;
+    padding-left: 15%;
+    padding-right:3%;
+
+}
+.icon-service img{
+    width: 18%;
+}
+.rightintroduction img {
+    height: 100%;
+    width: 100%;
+}
+.whiteanimbtn{
+    color: white;
+}
+.whiteanimbtn:hover{
+    transition: ease-in 0.5s;
+    color: black;
+    background-color: white;
+}
+.cerbg{
+    background-image: url("https://www.soeasyweb.com/websitetemplate/welconstruction/upload/welcon/wc6.jpg");
+}
+.cer-section{
+    background-color: white;
+    outline: 7px solid rgb(255 255 255 / 40%);
+    padding: 1.5rem;
+}
+.project-section{
+    background-image: url("https://www.soeasyweb.com/websitetemplate/welconstruction/upload/welcon/wc7.jpg");
+    padding-bottom: 7rem;
+}
+.item img{
+    max-width: 100%;
+}
+.slick-prev:before, .slick-next:before{
+    color:black;
+}
+footer{
+    background-color: #464649;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+@media screen and (max-width: 1400px) {
+    .service-text2{
+        font-size: 14px;
+        position: absolute;
+        top: 15%;
+        padding: 0px 0px 0px 90px;
+    }
+  }
+@media screen and (max-width: 1200px) {
+    .servicesection{
+        display:f;
+    }
+    .slick-prev:before, .slick-next:before{
+        display: none;
+    }
+  }
+@media screen and (max-width:992px) {
+    .navbar-brand {
+        margin-left: 0;
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .cerbg{
+        padding-top: 1rem;
+    }
+    .cer-section{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .cer-icon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
